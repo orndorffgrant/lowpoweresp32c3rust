@@ -1,5 +1,4 @@
 # Low Power Embedded Systems: Measuring low power modes on the ESP32C3
-*Grant Orndorff*
 
 > This was a course project for my Master's Degree in Computer Engineering at the University of Maryland. The project was completed in May 2024.
 
@@ -83,22 +82,27 @@ Here are graphs showing the current consumption over a 30 second span for each v
 
 
 ![](./busy_wait_graph.png)
+
 *busy_wait*
 
 
 ![](./delay_graph.png)
+
 *delay*
 
 
 ![](./light_sleep_graph.png)
+
 *light_sleep*
 
 
 ![](./deep_sleep_graph.png)
+
 *deep_sleep*
 
 
 ![](./light_sleep_turn_off_sensor_graph.png)
+
 *light_sleep_turn_off_sensor*
 
 
