@@ -80,31 +80,27 @@ This version of the firmware is a slight modification of `3_light_sleep.rs` to u
 
 Here are graphs showing the current consumption over a 30 second span for each version of the WiFi temperature sensor firmware.
 
+### `busy_wait`
 
 ![](./busy_wait_graph.png)
 
-*busy_wait*
-
+### `delay`
 
 ![](./delay_graph.png)
 
-*delay*
-
+### `light_sleep`
 
 ![](./light_sleep_graph.png)
 
-*light_sleep*
-
+### `deep_sleep`
 
 ![](./deep_sleep_graph.png)
 
-*deep_sleep*
-
+### `light_sleep_turn_off_sensor`
 
 ![](./light_sleep_turn_off_sensor_graph.png)
 
-*light_sleep_turn_off_sensor*
-
+### Summary
 
 And here is a table summarizing the average current consumption for each version. I also calculated the estimated maximum run time for the 2000mAh battery used in the experiment.
 
